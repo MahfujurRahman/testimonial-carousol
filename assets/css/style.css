@@ -1,0 +1,122 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.border-span span {
+    width: 35px;
+    height:  5px;
+    background-color: #6aaf08;
+    display:  inline-block;
+    border-radius:  5px;
+}
+
+span.black-border {
+    width:  30px;
+    height:  5px;
+    background-color:  #333;
+}
+
+.section-titel {
+    text-align:  center;
+    margin-bottom:  50px;
+}
+
+section.section-padding {
+    padding:  80px 0px;
+}
+
+.section-titel h2 {
+    font-size:  35px;
+    font-weight:  700;
+}
+
+.clients-titel-carousel.owl-carousel .owl-dots div {
+    width:  30px;
+    height:  5px;
+    background-color: #6aaf08;
+    display:  inline-block;
+    margin-left:  10px;
+    border-radius:  5px;
+    transition:  .3s;
+}
+
+.clients-titel-carousel.owl-carousel .owl-dots .active {
+    width: 40px;
+    height:  5px;
+    background-color:  #333;
+}
+.clients-titel-carousel.owl-carousel .owl-dots {
+    text-align: center;
+}
+.singel-client-titel {
+    box-shadow:  0 0 10px #c9dbb2;
+    margin:  5px;
+    font-style:  italic;
+    padding: 40px;
+    position: relative;
+    padding-left: 95px;
+    margin-bottom: 30px;
+}
+
+.singel-client-titel:before {
+    font-family: "fontawesome";
+    content: "\f10e";
+    position: absolute;
+    top: 50%;
+    line-height: 30px;
+    margin-top: -15px;
+    font-size: 25px;
+    color: #6aaf08;
+    left: 20px;
+}
+.singel-client-titel:after {
+    width: 1px;
+    position: absolute;
+    height: 70%;
+    content: "";
+    background-color: #d1d1d1;
+    top: 15%;
+    left: 70px;
+}
+.singel-client-titel h3 {
+    font-style:  normal;
+    display: grid;
+}
+
+.singel-client-titel span {
+    font-size:  15px;
+    font-weight:  500;
+    color: #a09797ee;
+    margin-top: 5px;
+}
+
+.singel-client-titel p {
+    color: #888282;
+}
